@@ -1,5 +1,5 @@
 {
-  "name": "node-adblock",
+  "name": "node-adblock-rule-parser",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
+    "najax": "^0.3.1",
     "node-localstorage": "^0.6.0",
-    "punycode": "^1.4.0"
+    "os-locale": "^1.4.0",
+    "punycode": "^1.4.0",
+    "xhr2": "^0.1.3"
   }
 }
